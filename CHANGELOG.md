@@ -24,7 +24,6 @@
     * Updated Doctrine Cache to 1.8
     * Updated Symfony Components to 4.2
     * Added new Cache purge functionality old cache manually via CLI/Admin as well as scheduler integration
-    * Added new `{% throw 404 'Not Found' %}` twig tag (with custom code/message)
     * Added `Grav\Framework\File` classes for handling YAML, Markdown, JSON, INI and PHP serialized files
     * Added `Grav\Framework\Collection\AbstractIndexCollection` class
     * Added `Grav\Framework\Object\ObjectIndex` class
@@ -127,7 +126,7 @@
     * Added apcu autoloader optimization
     * Additional helper methods in `Language`, `Languages`, and `LanguageCodes` classes
     * Call `onFatalException` event also on internal PHP errors
-    * Built-in PHP Webserver: log requests before handling them 
+    * Built-in PHP Webserver: log requests before handling them
     * Added support for syslog and syslog facility logging (default: 'file')
     * Improved usability of `System` configuration blueprint with side-tabs
  1. [](#bugfix)
@@ -152,7 +151,7 @@
     * Fixed failed login if user attempts to log in with upper case non-english letters
     * Removed extra authenticated/authorized fields when saving existing user from a form
     * Fixed `Grav\Framework\Route::__toString()` returning relative URL, not relative route
-    * Fixed handling of `append_url_extension` inside of `Page::templateFormat()` [#2264](https://github.com/getgrav/grav/issues/2264) 
+    * Fixed handling of `append_url_extension` inside of `Page::templateFormat()` [#2264](https://github.com/getgrav/grav/issues/2264)
     * Fixed a broken language string [#2261](https://github.com/getgrav/grav/issues/2261)
     * Fixed clearing cache having no effect on Doctrine cache
     * Fixed `Medium::relativePath()` for streams
@@ -205,7 +204,7 @@
     * Updated vendor libraries
 1. [](#bugfix)
     * Support spaces with filenames in responsive images [#2300](https://github.com/getgrav/grav/pull/2300)
-    
+
 # v1.5.6
 ## 12/14/2018
 
